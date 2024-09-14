@@ -2,6 +2,10 @@ package es.upm.miw.iwvg_devops.rest;
 
 public class Badge {
 
+    private String aux;
+
+    private String aux1;
+
     private static final String BADGE_IMAGE = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"%d\" height=\"20\">" +
             "<linearGradient id=\"a\" x2=\"0\" y2=\"100%%\">" +
             "<stop offset=\"0\" stop-color=\"#bbb\" stop-opacity=\".1\"/>" +
